@@ -632,7 +632,7 @@ async def download_audio_endpoint(
         
        
         file_url = f"/static/{output_file}"
-        server_url = os.getenv("SERVER_URL", "https://kanade710-ytt.hf.space")
+        server_url = os.getenv("SERVER_URL", "https://kanade710-ytdlp.hf.space")
         download_url = f"{server_url}{file_url}"
         
         return JSONResponse(content={
@@ -698,7 +698,7 @@ async def download_video(
         
      
         file_url = f"/static/{output_file}"
-        server_url = os.getenv("SERVER_URL", "https://kanade710-ytt.hf.space")
+        server_url = os.getenv("SERVER_URL", "https://kanade710-ytdlp.hf.space")
         download_url = f"{server_url}{file_url}"
         
         return JSONResponse(content={
