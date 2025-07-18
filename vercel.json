@@ -1,4 +1,5 @@
 {
+  "version": 2,
   "builds": [
     {
       "src": "main.py",
@@ -10,5 +11,15 @@
       "src": "/(.*)",
       "dest": "main.py"
     }
-  ]
+  ],
+  "functions": {
+    "main.py": {
+      "maxDuration": 300
+    }
+  },
+  "env": {
+    "YOUTUBE_COOKIES": "@youtube_cookies",
+    "ASSEMBLYAI_API_KEY": "@assemblyai_api_key",
+    "SERVER_URL": "https://yt-ten-phi.vercel.app"
+  }
 }
