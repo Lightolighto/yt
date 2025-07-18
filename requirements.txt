@@ -3,8 +3,4 @@ uvicorn
 asyncio
 mutagen
 requests
-imageio[ffmpeg]
-imageio[pyav]
-assemblyai
-moviepy
 git+https://github.com/yt-dlp/yt-dlp
